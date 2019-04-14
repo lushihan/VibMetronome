@@ -1,0 +1,11 @@
+<svg>
+  
+<!--   <image href="myimage.png" />
+  <text id="myLabel"></text> -->
+  
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+  </defs>
+</svg>

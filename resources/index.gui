@@ -1,0 +1,34 @@
+<svg>
+  <rect id="background" />
+  <text id="bps-label" class="sensor-label">BPM</text>
+  <text id="bps-data" class="sensor-data">{ ... }</text>
+  
+  <use id="mybutton" href="#square-button" y="100" height="70" width="174"
+    fill="fb-red" font-family="System-Regular" font-size="25">
+    <set href="#text" attributeName="text-buffer" to="Start" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="50" />
+  </use>
+  
+  <use id="mybutton2" href="#square-button" x = "175" y="100" height="70" width="174"
+    fill="fb-blue" font-family="System-Regular" font-size="25">
+    <set href="#text" attributeName="text-buffer" to="Stop" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="50" />
+  </use>
+  
+    <use id="mybutton3" href="#square-button" y="160" height="70" width="174"
+    fill="fb-red" font-family="System-Regular" font-size="25">
+    <set href="#text" attributeName="text-buffer" to="+" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="50" />
+  </use>
+  
+  <use id="mybutton4" href="#square-button" x = "175" y="160" height="70" width="174"
+    fill="fb-blue" font-family="System-Regular" font-size="25">
+    <set href="#text" attributeName="text-buffer" to="-" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="50" />
+  </use>
+
+</svg>

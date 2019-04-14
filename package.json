@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "8934bcc8-fbe2-416e-830c-ec791fa5619d",
+    "appType": "app",
+    "appDisplayName": "metronome",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_location",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "metronome"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
